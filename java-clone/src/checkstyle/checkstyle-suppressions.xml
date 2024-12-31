@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+		"-//Puppy Crawl//DTD Suppressions 1.1//EN"
+		"https://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+<suppressions>
+<suppress files=".*EurekaHealthCheckHandler\.java" checks="LineLengthCheck"/>
+<suppress files=".*InstanceRegistryTests\.java" checks="LineLengthCheck"/>
+<suppress files=".*EurekaCustomPeerNodesTests\.java" checks="LineLengthCheck"/>
+<suppress files=".*EurekaHealthCheckTests\.java" checks="LineLengthCheck"/>
+<suppress files=".*RefreshablePeerEurekaNodesTests\.java" checks="LineLengthCheck"/>
+<suppress files=".*EurekaRegistration\.java" checks="FinalClass"/>
+<suppress files=".*TestAutoConfiguration\.java" checks="HideUtilityClassConstructor"/>
+<suppress files=".*TestAutoConfiguration\.java" checks="JavadocStyle"/>
+<suppress files=".*TestAutoConfiguration\.java" checks="JavadocStyle"/>
+<suppress files=".*Tests\.java" checks="JavadocVariable"/>
+<suppress files=".*EurekaConfigServerBootstrapperIT\.java" checks="JavadocVariable"/>
+	<suppress files="[\\/]src[\\/](test|testFixtures)[\\/](java|java21)[\\/]"
+			  checks="RegexpSinglelineJava" id="toLowerCaseWithoutLocale"/>
+	<suppress files="[\\/]src[\\/](test|testFixtures)[\\/](java|java21)[\\/]"
+			  checks="RegexpSinglelineJava" id="toUpperCaseWithoutLocale"/>
+</suppressions>
